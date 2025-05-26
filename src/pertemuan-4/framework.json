@@ -1,0 +1,16 @@
+[
+  {
+      "name": "Svelte",
+      "description": "Cybernetically enhanced web apps.",
+      "developer": "Rich Harris (2016)",
+      "website": "https://svelte.dev",
+      "tags": ["JavaScript", "Compiler", "Reactive", "Lightweight"]
+  },
+  {
+      "name": "Ember",
+      "description": "A framework for ambitious web developers.",
+      "developer": "Ember Core Team (2011)",
+      "website": "https://emberjs.com",
+      "tags": ["JavaScript", "Framework", "Convention over Configuration"]
+  }
+]

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Top Navigation Bar -->
+<div style="background-color: #222; padding: 10px 30px; display: flex; justify-content: space-between; align-items: center; font-family: 'Poppins', sans-serif;">
+  <div style="color: white; font-weight: 700; font-size: 20px;">
+    <span style="color:#3b82f6;">▮</span> EREN
+  </div>
+  <nav style="display: flex; gap: 20px; align-items: center;">
+    <a href="#" style="color: #60a5fa; text-decoration: none;">HOME</a>
+    <a href="#" style="color: white; text-decoration: none;">PRODUCTS</a>
+    <a href="#" style="color: white; text-decoration: none;">COLLECTION</a>
+    <a href="#" style="color: #6b7280; text-decoration: none;">PAGES</a>
+    <a href="#" style="color: white; text-decoration: none;">ABOUT US</a>
+    <a href="#" style="color: white; text-decoration: none;">CONTACT US</a>
+    <div style="position: relative;">
+      <img src="https://cdn-icons-png.flaticon.com/512/1170/1170678.png" alt="Cart" width="20" style="filter: brightness(0) invert(1);"/>
+      <span style="position: absolute; top: -8px; right: -10px; background: #3b82f6; color: white; font-size: 10px; padding: 2px 5px; border-radius: 50%;">2</span>
+    </div>
+    <img src="images/4994bcbd-721b-4a00-be41-558aa2d349ad.png" alt="New Product" alt="Search" width="20" style="filter: brightness(0) invert(1); cursor: pointer;" />
+  </nav>
+</div>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EREN - Lamp Store</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"/>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      color: #212529;
+    }
+    header {
+      background: #1e293b;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 14px;
+    }
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: white;
+    }
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px 30px;
+      background: #f4f4f4;
+    }
+    .hero-text h1 {
+      font-size: 48px;
+      font-weight: 700;
+    }
+    .hero-text h1 span {
+      color: #3b82f6;
+    }
+    .hero-text p {
+      font-size: 14px;
+      margin: 20px 0;
+    }
+    .hero-text button {
+      padding: 10px 20px;
+      border: 1px solid #000;
+      background: white;
+      cursor: pointer;
+    }
+    .product-grid, .feature-grid {
+      display: flex;
+      gap: 20px;
+      padding: 30px;
+      overflow-x: auto;
+    }
+    .product-card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      min-width: 240px;
+    }
+    .product-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .section-title {
+      text-align: center;
+      margin: 30px 0 10px;
+      font-weight: 600;
+    }
+    .banner-cta {
+      background: #e2e8f0;
+      text-align: center;
+      padding: 30px;
+      margin: 30px;
+      border-radius: 10px;
+    }
+    .blog-section {
+      display: flex;
+      gap: 20px;
+      padding: 30px;
+      justify-content: center;
+    }
+    .blog-card {
+      width: 240px;
+    }
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: #1e293b;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div>EREN</div>
+    <nav>
+      <a href="#">MY ACCOUNT</a>
+      <a href="#">WISHLIST</a>
+      <a href="#">CHECKOUT</a>
+      <a href="#">LOGIN</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <div class="hero-text">
+      <small>NEW ARRIVALS</small>
+      <h1>NEW STYLE <span>FOR LAMP</span></h1>
+      <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
+      <button>Shop Now</button>
+    </div>
+    <img src="https://via.placeholder.com/400x400?text=Lamp" alt="Lamp Hero" />
+  </div>
+
+  <!-- Featured Boxes -->
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="https://via.placeholder.com/150x150?text=Bird" alt="Bird Deco"/>
+      <h3>ERENHOME DECO</h3>
+      <p>Creative home deco ideal</p>
+      <strong style="color:#3b82f6;">From: $167.00</strong>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/150x150?text=Lamp" alt="Lamp Sale"/>
+      <h3>MEGA SALE OFF UP TO</h3>
+      <p>Lamps & Lighting</p>
+      <strong style="color:#3b82f6;">From: $---</strong>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/150x150?text=Design" alt="Table Design"/>
+      <h3>CREATIVE TABLE DESIGN</h3>
+      <p>Creative home deco ideal</p>
+      <strong style="color:#3b82f6;">From: $147.00</strong>
+    </div>
+  </div>
+
+  <!-- New Arrivals Carousel -->
+  <h2 class="section-title">NEW ARRIVALS</h2>
+  <div class="product-grid">
+    <div class="product-card"><img src="https://via.placeholder.com/150x200?text=Chair"/><p>Best Chair Design</p></div>
+    <div class="product-card"><img src="https://via.placeholder.com/150x200?text=Bag"/><p>Best Travel Bag</p></div>
+    <div class="product-card"><img src="https://via.placeholder.com/150x200?text=Pendant"/><p>Pendant Light</p></div>
+    <div class="product-card"><img src="https://via.placeholder.com/150x200?text=Chair"/><p>Stylish Chair</p></div>
+  </div>
+
+  <!-- Countdown Product -->
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="https://via.placeholder.com/300x300?text=Chair" />
+      <h3>SACHSEN CHAIR DESIGN</h3>
+      <p>$150.00 <del>$200.00</del></p>
+      <div>Ends in: 4d 12h 30m</div>
+    </div>
+  </div>
+
+  <!-- Featured Products -->
+  <h2 class="section-title">FEATURED PRODUCTS</h2>
+  <div class="feature-grid">
+    <div class="product-card"><img src="https://via.placeholder.com/150x150?text=Bag" /><p>Luxury Bag</p></div>
+    <div class="product-card"><img src="https://via.placeholder.com/150x150?text=Lamp" /><p>Modern Lamp</p></div>
+    <div class="product-card"><img src="https://via.placeholder.com/150x150?text=Chair" /><p>Outdoor Chair</p></div>
+    <div class="product-card"><img src="https://via.placeholder.com/150x150?text=Lamp" /><p>Desk Lamp</p></div>
+  </div>
+
+  <!-- Call to Action Banner -->
+  <div class="banner-cta">
+    <h3>DO YOU LOVE US? PURCHASE THIS THEME!</h3>
+    <button>Purchase</button>
+  </div>
+
+  <!-- From Our Blog -->
+  <h2 class="section-title">FROM OUR BLOG</h2>
+  <div class="blog-section">
+    <div class="blog-card">
+      <img src="https://via.placeholder.com/240x150?text=Blog1" alt="Blog 1"/>
+      <p><strong>27 APRIL</strong><br>Simple Post Format</p>
+    </div>
+    <div class="blog-card">
+      <img src="https://via.placeholder.com/240x150?text=Blog2" alt="Blog 2"/>
+      <p><strong>27 APRIL</strong><br>Standard Blog Post</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>&copy; 2025 EREN. All Rights Reserved.</p>
+  </div>
+</body>
+</html>
